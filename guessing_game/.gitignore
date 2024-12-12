@@ -1,1 +1,10 @@
-target
+# Ignore build output directory
+/target/
+
+# Ignore Cargo.lock for libraries
+**/Cargo.lock
+
+# Ignore generated files
+/.idea/
+.vscode/
+*.rs.bk
